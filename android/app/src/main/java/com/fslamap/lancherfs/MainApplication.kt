@@ -1,4 +1,4 @@
-package com.fsamp_launcher_c_v1
+package com.fslamap.lancherfs
 
 import android.app.Application
 import com.facebook.react.PackageList

@@ -1,6 +1,4 @@
-pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
-plugins { id("com.facebook.react.settings") }
-extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
-rootProject.name = 'fsamp_launcher_c_v1'
+rootProject.name = 'FSlauncher'
 include ':app'
-includeBuild('../node_modules/@react-native/gradle-plugin')
+
+apply from: new File(settingsDir, '../node_modules/react-native/react.gradle')
