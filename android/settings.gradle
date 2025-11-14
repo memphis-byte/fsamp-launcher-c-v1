@@ -5,6 +5,10 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
+// Include the React Native Gradle Plugin build
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
